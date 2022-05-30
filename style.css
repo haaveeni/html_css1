@@ -1,9 +1,10 @@
-body {
-    background: #CCCCCC
-}
-
 #banner {
     width:100%
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
 }
 
 h1 {
@@ -12,7 +13,6 @@ h1 {
 
 p {
     text-align: center;
-
 }
 
 #missao {
@@ -25,4 +25,24 @@ em strong {
 
 .itens {
     font-style: italic;
+}
+
+.beneficios {
+    background: white;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+#imagemBeneficios {
+    width:50%
 }
