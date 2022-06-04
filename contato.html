@@ -25,22 +25,22 @@
     <main>
         <form>
             <label for="fullname">Nome e sobrenome</label>
-            <input type="text" id="fullname" placeholder="Nome completo" class="input-padrao">
+            <input type="text" id="fullname" placeholder="Nome completo" class="input-padrao" required>
 
             <label for="email">Email</label>
-            <input type="email" id="email" placeholder="email@dominio.com" class="input-padrao">
+            <input type="email" id="email" placeholder="email@dominio.com" class="input-padrao"required>
 
             <label for="phonenumber">Telefone</label>
-            <input type="tel" id="phonenumber" placeholder="(XX) XXXX-XXXX" class="input-padrao">
+            <input type="tel" id="phonenumber" placeholder="(XX) XXXX-XXXX" class="input-padrao" required>
 
             <label for="message">Mensagem</label>
-            <textarea name="message" id="" cols="50" rows="10" placeholder="Mensagem" class="input-padrao"></textarea>
+            <textarea name="message" id="" cols="50" rows="10" placeholder="Mensagem" class="input-padrao" required></textarea>
 
             <div>
                 <p>Como prefere o nosso contato?</p>
                 <label><input type="radio" name="contato" value="email"> Email</label>
                 <label><input type="radio" name="contato" value="call"> Ligação</label>
-                <label><input type="radio" name="contato" value="whatsapp"> Whatsapp</label>
+                <label><input type="radio" name="contato" value="whatsapp" checked> Whatsapp</label>
     
                 <input type="submit" value="Enviar formulário">
             </div>
@@ -55,7 +55,7 @@
                 </select>
             </div>
 
-            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
         </form>
     </main>
 
