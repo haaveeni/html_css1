@@ -157,7 +157,6 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    color: rgba(0,0,0,0.3);
 }
 
 .titulo-principal:first-letter {
@@ -235,6 +234,7 @@ td, th {
 .imagem-beneficios {
     width: 60%;
     transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .imagem-beneficios:hover {
