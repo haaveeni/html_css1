@@ -84,6 +84,11 @@ CSS: estilização visual <br/>
 
 ---
 
+## 🤝 Agradecimentos
+Agradeço a <a href="https://github.com/alura-cursos">Alura💻</a> e ao professor <a href="https://github.com/pedromarins">Pedro Marins</a>, que disponibilizou esse curso de HTML e CSS na plataforma.
+
+---
+
 ## 👩🏻 Autora
 
 <a href="https://www.linkedin.com/in/veridiana-lucena/">
